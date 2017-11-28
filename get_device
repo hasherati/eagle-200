@@ -1,0 +1,9 @@
+POST /cgi-bin/post_manager HTTP/1.1
+Host: eagle.hasherati.org
+Content-Type: text/xml
+Content-Length: 43
+Authorization: Basic xxxxxxxxxxxxxxxxxxxxxxx 
+Cache-Control: no-cache
+
+<Command><Name>device_list</Name></Command>
+

@@ -1,0 +1,23 @@
+POST /cgi-bin/post_manager HTTP/1.1
+Host: eagle.hasherati.org
+Content-Type: text/xml
+Content-Length: 141
+Authorization: Basic xxxxxxxxxxxxxxxxxxxxxxxxx
+Cache-Control: no-cache
+
+<Command>
+	<Name>device_query</Name>
+	<DeviceDetails>
+		<HardwareAddress>0x0000000000000000</HardwareAddress>
+	</DeviceDetails>
+	<Components>
+		<Component>
+			<Name>Main</Name>
+			<Variables>
+				<Variable>
+					<Name>zigbee:InstantaneousDemand</Name>
+				</Variable>
+			</Variables>
+		</Component>
+	</Components>
+</Command>
