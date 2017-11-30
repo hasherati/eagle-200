@@ -1,0 +1,26 @@
+<Device>
+    <DeviceDetails>
+        <Name>Power Meter</Name>
+        <HardwareAddress>0x0000000000000000</HardwareAddress>
+        <NetworkInterface>0xd8d5b9000000ebd5</NetworkInterface>
+        <Protocol>Zigbee</Protocol>
+        <NetworkAddress>0x0000</NetworkAddress>
+        <Manufacturer>Generic</Manufacturer>
+        <ModelId>electric_meter</ModelId>
+        <LastContact>0x5a1f8bd2</LastContact>
+        <ConnectionStatus>Connected</ConnectionStatus>
+    </DeviceDetails>
+    <Components>
+        <Component>
+            <HardwareId></HardwareId>
+            <FixedId>0</FixedId>
+            <Name>Main</Name>
+            <Variables>
+                <Variable>
+                    <Name>zigbee:InstantaneousDemand</Name>
+                    <Value>2.219000 kW</Value>
+                </Variable>
+            </Variables>
+        </Component>
+    </Components>
+</Device>
